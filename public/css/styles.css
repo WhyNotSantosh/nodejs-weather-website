@@ -6,7 +6,7 @@ margin: 0 auto;
 padding: 16px;
 display: flex;
 flex-direction: column;
-min-height: 100vh;
+min-height: 80vh;
 }
 .main-content{
     flex-grow:1;
@@ -29,6 +29,8 @@ header a{
 
 .portrait{
     width: 250px;
+    border: orange 3px solid;
+    border-radius: 70px;
 }
 input {
 border: 1px solid #cccccc;
