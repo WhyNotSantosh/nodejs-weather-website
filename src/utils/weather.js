@@ -9,7 +9,7 @@ const weather = (long, lat, loc, callback) => {
             callback("Unable to connect to weather service. " + body.error.info, undefined);
         }
         else {
-            callback(undefined, "It is currently " + body.current.temperature + " degrees out. It feels like " + body.current.feelslike + " outside. Today's humidity is " +body.current.humidity +".");
+            callback(undefined, "It is currently " + body.current.temperature + " fahrenheit out. It feels like " + body.current.feelslike + " outside. Today's humidity is " +body.current.humidity +".");
         }
     })
 }
